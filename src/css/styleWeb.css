@@ -68,8 +68,15 @@ footer{
     background: #682444;
     color: white;
     padding: 3px 10px;
-    height: 70px;
+    height: 40px;
     box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer img{
+    width: 30px;
 }
 
 #eventos{
