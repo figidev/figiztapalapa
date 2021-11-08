@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIG Iztapalapa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./src/css/styleWeb.css">
+</head>
+<body>
+    <header>
+        <h1> <img src="./src/img/Fig.png" alt="FIG Iztapalapa" /> </h1>
+        <ul>
+            <li>FIGI 2021</li>
+            <li>FIGI 2020</li>
+            <li>Historia</li>
+        </ul>
+    </header>
+    <main>
+        <div id="presentacion">
+            <h2>Festival Internacional de Guitarra de Iztapalapa 2021</h2>
+            <video  controls  poster="./src/img/FondoVideo.png" preload="none">
+            <source 
+                src="./src/vid/FIGIztapalapa.mp4"
+                type="video/mp4">
+                
+            </video>
+        </div>
+        <div id="eventos">
+            <evento-figi evento="1"></evento-figi>
+            <evento-figi evento="2"></evento-figi>
+            <evento-figi evento="3"></evento-figi>
+            <evento-figi evento="4"></evento-figi>
+            <evento-figi evento="5"></evento-figi>
+            <evento-figi evento="6"></evento-figi>
+            <evento-figi evento="7"></evento-figi>
+            <evento-figi evento="8"></evento-figi>
+            <evento-figi evento="9"></evento-figi>
+            <evento-figi evento="10"></evento-figi>
+            <div id="interpreteResumen">
+                <h3>Nombre</h3>
+                <p>Contenido</p>
+                <span id="cierre" onclick="cerrar()">X</span>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            Contactanos en: Redes
+        </div>
+    </footer>
+    <script src="./src/js/eventos.js"></script>
+</body>
+</html>
