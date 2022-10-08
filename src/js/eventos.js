@@ -90,8 +90,8 @@ const interpretes = {
     "0": {
         nombre: "Por definir",
         resenia: `Por definir`,
-        imagen: "./src/img/FIG_image.png",
-        fondo: './src/img/FIGFondo.png'
+        imagen: "./src/img/interpretes/FIG_image.png",
+        fondo: './src/img/interpretes/FIGFondo.png'
     },
     "1": {
         nombre: "Natalia Tarquino",
@@ -99,29 +99,29 @@ const interpretes = {
         Fue ganadora del Segundo Lugar en el Concurso Latinoamericano de Mujeres Interpretes de la Guitarra en Hermosillo Sonora en 2018, fue candidata nominada por la Universidad Distrital al Premio Nacional Mujeres de Éxito – Colombia 2020, participó en el Latin American Music Festival Boston 2020, en el que fue ganadora de beca para tomar masterclass con la gran maestra Sharon Isbin, además de poder presentar un concierto de gala en el Auditorio en The Rivers School Conservatory of Music – Massachusetts, estas entre otras participaciones. Natalia ha pasado por la tutoría de grandes maestros de gran talla internacional, en Colombia su formación profesional comienza con los maestros de guitarra; Yimy Robles, León Salcedo, Mario Riveros y Juan Miguel Sossa, posteriormente en México llega bajo la tutoría del guitarrista y compositor Cutberto Córdova, y este camino se ha ido enriqueciendo con un gran número de clases magistrales cursadas con grandes guitarristas a nivel mundial, como lo son: William Anderson (Estados Unidos), Mauro Zanatta (Italia), Luis Quintero (Venezuela), Luis Zea (Venezuela), Antonio Laguna (México), Mauricio Hernández (México), Norman Ruiz (Estados Unidos), entre otros. 
         Su formación Musical se ha complementado con su experiencia como docente en el área infantil, donde ha podido emprender investigaciones entorno a la pedagogía infantil de la guitarra y los que ha logrado llevar a cabo en México. También emprendió estudios en el Área de la Dirección Orquestal, por lo que cursó en la Universidad Veracruzana el Diplomado en Ensambles Instrumentales, el que culminó y aprobó satisfactoriamente luego de dirigir en quinteto de cuerdas el 3er Movimiento (Sentimental Saraband) de la Simple Symphony de Benjamin Britten en 2021. 
         Actualmente Natalia se encuentra radicada en Xalapa - México donde tuvo la oportunidad de formar su perfil laboral, al entrar como Consultora Académica del Instituto Superior de Música del Estado de Veracruz en 2020. Hoy en día ocupa el cargo como Subdirectora Académica de esta institución; de tanto valor dentro del arte y la cultura veracruzana en el territorio mexicano.`,
-        imagen: "./src/img/Natalia.jpeg",
-        fondo: './src/img/NataliaFondo.jpg'
+        imagen: "./src/img/interpretes/Natalia.jpeg",
+        fondo: './src/img/interpretes/NataliaFondo.jpg'
     },
     "2": {
         nombre: "Blanca Pineda",
         resenia: `Licenciada en piano por la Facultad de Música UNAM, discípula de Jesús María Figueroa, Eva del Carmen Medina y Francisco Viesca. Ha perfeccionado sus conocimientos musicales con cursos sobre Bach, música española, análisis auditivo de la música, método Alexander, ensamble, improvisación y docencia. Sus estudios sobre jazz corrieron a cargo de personalidades como Felipe Gordillo, Juan José Calatayud y Daniel Wong.
         Su trayectoria incluye presentaciones como solista, acompañante, elemento de Orquesta Sinfónica y miembro de grupos de cámara. Ha sido directora musical e integrante de numerosos proyectos musicales. Actualmente cursa la maestría en Pedagogía de las Artes en la Universidad Veracruzana, es pianista del ensamble de cámara Scherzo, docente tutor investigador del IEMS, pianista titular de la Orquesta Sinfónica de la UACM y fundadora, pianista y directora de la banda de jazz Los Ochocuartos.`,
-        imagen: "./src/img/Blanca.jpg",
-        fondo: './src/img/BlancaFondo.jpg'
+        imagen: "./src/img/interpretes/Blanca.jpg",
+        fondo: './src/img/interpretes/BlancaFondo.jpg'
     },
     "3": {
         nombre: "Alan Bernal",
         resenia: "Discípulo de Blanca Pineda, comenzó como músico autodidacta para continuar en la Escuela de Iniciación Artística del Instituto Nacional de Bellas Artes número 2, para poder expandir sus horizontes musicales.  Ha tomado cursos de perfeccionamiento en jazz y música contemporánea. Actualmente estudia Educación Musical con especialidad en guitarra en la Facultad de Música UNAM, es profesor de guitarra y canto, guitarrista en la Orquesta Sinfónica de la UACM y en la banda de jazz Los Ochocuartos.",
-        imagen: "./src/img/Alan.jpg",
-        fondo: './src/img/AlanFondo.jpg'
+        imagen: "./src/img/interpretes/Alan.jpg",
+        fondo: './src/img/interpretes/AlanFondo.jpg'
     },
     "4": {
         nombre: "Axel Trejo",
         resenia: `Originario de la Ciudad de México comenzó sus estudios musicales a la edad de 19 años en el Centro de estudios profesionales a nivel profesional “Ad Libitum”, bajo la dirección del profesor Alexis Huerta. Además, ha complementado sus estudios siendo alumno de guitarristas de talla internacional como Alí Arango y Mauro Zanatta.
         Sus intereses musicales se centran en la música escrita para laúd del S. XVI, particularmente se ha enfocado en la obra del compositor francés Adrian Le Roy de quien ha transcrito su Primer libro de tablatura de laúd.
         Hoy en día estudia el ciclo propedéutico de la licenciatura Instrumentista en guitarra de la Facultad de Música de la UNAM bajo la cátedra del profesor José Luis Segura Maldonado.`,
-        imagen: "./src/img/Axel.jpg",
-        fondo: './src/img/AxelFondo.jpg'
+        imagen: "./src/img/interpretes/Axel.jpg",
+        fondo: './src/img/interpretes/AxelFondo.jpg'
     },
     "5": {
         nombre: "Alexis Huerta",
@@ -131,8 +131,8 @@ const interpretes = {
                   Participó en el Concurso Interno del Conservatorio Nacional de Música en las ediciones 2015, 2018 y 2019.
                   Se ha presentado en diferentes foros como la Sala Silvestre Revueltas, Sala de recepciones del MUNAL, Museo Dolores Olmedo, Museo del Virreinato Walter J. Mannien Center for the Arts (Beverly Massachussets). y el Museo del Carmen.
                   Se ha desempeñado como Maestro de guitarra en el Ad Libitum - Centro de estudios musicales a nivel profesional durante el 2018 a 2019; y como Maestro de guitarra, bajo y ukelele en el MVS Music Center desde el 2018.`,
-        imagen: "./src/img/Alexis.jpg",
-        fondo: './src/img/AlexisFondo.jpg'
+        imagen: "./src/img/interpretes/Alexis.jpg",
+        fondo: './src/img/interpretes/AlexisFondo.jpg'
     },
     "6": {
         nombre: "Sheila Mónica Muñiz Estrada",
@@ -145,8 +145,8 @@ const interpretes = {
         Ha participado con el ensamble de música popular 'Cuerdas al Aire' en recintos culturales del Edo de México: Festival ¨Guitarreando¨ día Nacional de la guitarra, Casa de Morelos, en la Ciudad de México: Centro Cultural Acatitla, Centro Cultural Elena Garro, entre otros. 
         En el 2020, debido a la pandemia comienza a dar recitales virtuales de música académica. En el 2021, da inicio a un proyecto en su canal de Youtube, llamado 'Grandes maestros de la guitarra de concierto' (https://youtube.com/channel/UCzIRiOPp3evte7rXAiCe60A ) donde busca promover la guitarra clásica, e impulsar a las personas a acercarse a la música, por medio de entrevistas virtuales a maestros reconocidos en el ámbito musical de dicho instrumento.
         Actualmente se encuentra en el ámbito de la docencia a nivel básico, en el Centro Cultural Real del Bosque e impartiendo clases particulares,continúa como guitarrista en la Orquesta Sinfónica de la UACM, en el ensamble Cuerdas al Aire, como solista y en diversos proyectos personales.`,
-        imagen: "./src/img/Sheila.jpg",
-        fondo: './src/img/SheilaFondo.jpg'
+        imagen: "./src/img/interpretes/Sheila.jpg",
+        fondo: './src/img/interpretes/SheilaFondo.jpg'
     },
     "7": {
         nombre: "Cutberto Córdova Nieto",
@@ -156,8 +156,8 @@ const interpretes = {
         Gracias a su gran labor como compositor o como ejecutante, ha sido invitado en diversos foros tales como; ponente y con el Ensamble de Guitarras del ISMEV al 5º Festival Internacional de Orquestas de Guitarra en la ciudad de Cali Colombia; en una conferencia de su obra y clases magistrales en Boston en el Latin American Music Festival auspiciado por The Rivers School Conservatory; es ganador del la beca Habilitación del Perfil Internacional (HAPI) de la Universidad Veracruzana para realizar una Residencia Artística en la Universidad de Rio Grande Valley, Texas, Estados Unidos; invitado al conversatorio de compositores, además de ser interpretada su obra por la Orquesta Internacional de Guitarra en el XVI Encuentro Internacional de Guitarra en Panamá; como Jurado del Concurso Latinoamericano de Mujeres Intérpretes de la Guitarra en Hermosillo Sonora; clases magistrales, ponencia y concierto en la Universidad Distrital ASAB de Bogotá Colombia; ponencia de su CD Crónicas de Viaje en el Latin-American Guitar Festival Chicago Estados Unidos; participa en el Segundo, Tercer y Quinto Festival de Orquestas de Guitarra en la ciudad de Cali Colombia en las ediciones del donde interpretaron diversas orquestas de diferentes países su obra; conferencista en el Foro de Compositores Clutch en la Universidad de Austin Texas.
         Ha presentado su CD Mictlán en Latina, Italia; Caravaca de la Cruz, España; Universidad del Mozarteum en Salzburgo, Austria y en el Conservatorio Koninklijk de la Haya, Holanda.
         Realizó una gira con la Orquesta de Guitarras de Xalapa por un mes a China, desde Hong Kong hasta Beijing y se ha presentado en la Escuela de Artes Musicales de la Universidad de San José Costa Rica; en el Conservatorio de Música “G. B. Pergolesi” de Fermo Italia, así como una conferencia en la Universidad del Cuyo, Mendoza Argentina.`,
-        imagen: "./src/img/Cutberto.jpg",
-        fondo: './src/img/CutbertoFondo.jpg'
+        imagen: "./src/img/interpretes/Cutberto.jpg",
+        fondo: './src/img/interpretes/CutbertoFondo.jpg'
     },
     "8": {
         nombre: "Marco Mizael Blanno Lugo",
@@ -167,28 +167,28 @@ const interpretes = {
         Ha tomado clases magistrales con el maestro Sergio Frías, Cutberto Córdoba, Natalia Tarquino, José Miguel García Torres, José Francisco Grijalva Vega, Edilberto Vega García, ha participado en cursos de dirección orquestal, métodos de pedagogía musical y el encuentro de guitarras de México de la FAM UNAM.
         En el año 2018 ingresa a la Orquesta Sinfónica de la Universidad Autónoma de la Ciudad de México en la que participo en cuatro temporadas, realizando conciertos en distintas ferias del libro, noche de museos, ferias internacionales; interpretando obras de todo tipo de repertorio, incluyendo popular, pero en un formato de música académica.
         De forma paralela a la Orquesta Sinfónica forma parte del Cuarteto de Guitarras de la OSUACM teniendo presentaciones en ciudad universitaria, museo de San Carlos, Ex convento de Culhuacán en noche de museos, entre otros.`,
-        imagen: "./src/img/Marco.jpg",
-        fondo: './src/img/MarcoFondo.jpg'
+        imagen: "./src/img/interpretes/Marco.jpg",
+        fondo: './src/img/interpretes/MarcoFondo.jpg'
     },
     "9": {
         nombre: "Marcos Yair Guzmán Rueda",
         resenia: `Comenzó sus estudios formales de música en el instrumento de guitarra clásica en la Escuela de Iniciación Artística No. 2. Posteriormente, ingresó a la Escuela de Bellas Artes de Toluca en la carrera técnica de músico instrumentista en guitarra clásica. 
         Actualmente estudia la carrera de instrumentista en guitarra de la Facultad de Música de la UNAM.
         Ha tenido presentaciones como solista; así como integrante del Ensamble Juvenil de Guitarras de la EBAT en distintos lugares, tales como: en la Académica de Música Yamaha; en la sala Xochipilli por el "Taller de Guitarras Clásicas"; "La Feria del tamal 2018" en San Lorenzo Tetlixtac; en el colegio de "Comunidad Europea"; en el "Colegio Cultural Cuauhtémoc"; la casa de cultura de El Sifón en la CDMX, en el auditorio Mozart de la EBAT, entre otros.`,
-        imagen: "./src/img/Yair.jpg",
-        fondo: './src/img/YairFondo.jpg'
+        imagen: "./src/img/interpretes/Yair.jpg",
+        fondo: './src/img/interpretes/YairFondo.jpg'
     },
     "10": {
         nombre: "José Luis Segura",
         resenia: `Licenciado Instrumentista en Guitarra por la Facultad de Música de la UNAM, donde se graduó con mención Honorifica. Concluyo sus estudios de Maestría en Musicología en el Posgrado en Música de la UNAM. Realizo un curso de Posgrado en la Real Academia de Bellas Artes de San Fernando y el Conservatorio “Reina Sofía” en Madrid España. Ha ofrecido recitales en salas de concierto a lo largo de la república Mexicana, así como en varios países de Europa, América Latina y el Caribe; como solista, solista con orquesta, con Nova Música Guitar Duo, con el Cuarteto de Guitarras de la Ciudad de México, con el Duo Lux Chordarum y con el grupo de rock Fausto. Ha dictado conferencias e impartido cursos en diversos foros académicos y universidades de México, así como en Bolivia, Cuba, España y Perú. Del año 2011 a 2018 fue coordinador de investigación del CENIDIM Carlos Chávez del INBA. Actualmente se desempeña como profesor de Guitarra y Música de Cámara en la Facultad de Música de la UNAM, donde ademas es presidente del Claustro de Guitarra e integrante del Comité Editorial.`,
-        imagen: "./src/img/JoseLuisSegura.jpg",
-        fondo: './src/img/JoseLuisSeguraFondo.jpg'
+        imagen: "./src/img/interpretes/JoseLuisSegura.jpg",
+        fondo: './src/img/interpretes/JoseLuisSeguraFondo.jpg'
     },
     "11": {
         nombre: "José Miguel García Torres",
         resenia: `Licenciado en Guitarra Clásica por la Facultad de Música de la UNAM. Ha tomado cursos de perfeccionamiento guitarrístico en las áreas de música del siglo XVI, Jazz, Lectura a primera vista, Tablatura Renacentista, Interpretación en música del siglo XX, Dirección Coral, Dirección de ensambles musicales diversos, Interpretación de música contemporánea (Rock). Ha formado parte de diversas agrupaciones musicales como la Orquesta Sinfónica de la UACM bajo la batuta del director Francisco Grijalba; Dirección y participación del Cuarteto de Guitarras de la UACM. También ha participado en el área vocal con el Coro Filarmónico Universitario UNAM; coro Gabriel Zaldívar del Centro Cultural Ollín Yoliztli. Ha tenido diversas presentaciones como solista o con ensambles musicales en la CDMX y en el interior de la república como son el Auditorio Nacional, la Sala Nezahualcóyotl, la sala Silvestre Revueltas del Centro Cultural Ollín Yoliztli, en la Universidad Autónoma de Nuevo León, en el Centro Cultural Mexiquense Bicentenario, por mencionar algunos. Actualmente imparte la asignatura de Educación Estética y Artística Música IV y V en el plantel No. 8 “Miguel E. Schulz” de la Escuela Nacional Preparatoria en la Ciudad de México.`,
-        imagen: "./src/img/Miguel.jpg",
-        fondo: './src/img/MiguelFondo.jpg'
+        imagen: "./src/img/interpretes/Miguel.jpg",
+        fondo: './src/img/interpretes/MiguelFondo.jpg'
     },
     "12": {
         nombre: "Cuarteto de Guitarras SUAM",
@@ -197,8 +197,8 @@ const interpretes = {
                 José Miguel García Torres FaM UNAM
                 Marco Mizael Blanno Lugo EBAT
                 Gabriel Lara Amador INBA`,
-        imagen: "./src/img/FIG_image.png",
-        fondo: './src/img/FIGFondo.png'
+        imagen: "./src/img/interpretes/FIG_image.png",
+        fondo: './src/img/interpretes/FIGFondo.png'
     }
 
 
@@ -322,7 +322,7 @@ class InterpreteInfo extends HTMLElement {
             img.src= persona.imagen
             nombre.textContent = persona.nombre
         }else{
-            img.src= './src/img/tomasa.jpg'
+            img.src= './src/img/interpretes/tomasa.jpg'
             nombre.textContent = "Pendiente"
         }
         const estilo = document.createElement('style')
