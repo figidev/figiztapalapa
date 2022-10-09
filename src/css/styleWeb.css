@@ -127,6 +127,11 @@ evento-figi, interprete-info{
     margin: 25px 0;
 }
 
+#interpreteResumen h4{
+    font-size: 2em;
+    margin: 25px 0;
+}
+
 #cierre {
     position: absolute;
     top: 0;

@@ -50,7 +50,7 @@ const eventos = {
     "6": {
         tipo: "Concierto",
         fecha: "19/11/2022",  hora: "17:00",
-        recinto: "Exconvento Culhuacan",
+        recinto: "Utopía Papalotl",
         referencia: 'https://www.google.com/maps/place/Utop%C3%ADa+%22Papalotl%22/@19.3421459,-99.034535,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce034448e99d97:0x22fb90891720c78a!8m2!3d19.3421459!4d-99.032341',
         programa: [
             [{ interprete: 11, contenido: null}],
@@ -95,7 +95,11 @@ const interpretes = {
         nombre: "In-Fortunio Tango Dúo",
         resenia: `In-Fortunio Tango dúo es un dúo de bandoneón y guitarra único en México, tiene como objetivo difundir el tango tradicional y moderno mediante la integración de este par de instrumentos representativos del género que, a partir de arreglos y adaptaciones originales, presentan su propuesta para explorar con particular estética un lenguaje musical con profunda herencia. 
         El dúo surgió en 2014 en la Ciudad de México, y desde entonces se ha presentado en diversos foros y festivales del país, ofreciendo mas de 20 conciertos al año, entre ellos en la sala Manuel M. Ponce del Palacio de Bellas Artes, en el IX Encuentro Internacional de Guitarra de Salamanca, Guanajuato, el 4o. Ciclo Internacional de Guitarra de Cuernavaca, el Museo Iconográfico del Quijote en Guanajuato, la Feria Internacional del Libro del Museo Nacional de Antropología e Historia, el Festival Revueltas 2015 de la ciudad de Durango, el 8vo Festival Internacional Divertimento 2018, el 21 Festival Internacional de Guitarra de Taxco 2018, en los Conciertos Radiofónicos del IMER y en el Festival Internacional de Guitarra de Radio UNAM. 
-        En el 2019 actuaron como solistas con la Orquesta del Festival Internacional de Guitarra de Morelia y con la Camerata Oaxaca tocando en doble concierto para bandoneón y guitarra del compositor Astor Piazzolla.`,
+        En el 2019 actuaron como solistas con la Orquesta del Festival Internacional de Guitarra de Morelia y con la Camerata Oaxaca tocando en doble concierto para bandoneón y guitarra del compositor Astor Piazzolla.
+        Integrantes:
+        César Lara
+        Javier Noyola Zarazúa
+        `,
         imagen: "./src/img/interpretes/In-Fortunio.jpg",
         fondo: './src/img/interpretes/In-FortunioFondo.jpg'
     },"5": {
@@ -148,11 +152,18 @@ const interpretes = {
     },
     "12": {
         nombre: "Cuarteto de Guitarras SUAM",
-        resenia: `El Cuarteto de Guitarras SUACM se forma en Enero de 2018, por el Amor y la Pasión de sus integrantes hacia la Guitarra de Concierto, teniendo como prioridad la interpretación y difusión de los Grandes Compositores Mexicanos de la Guitarra Clásica, sin dejar de lado al resto del mundo. El Cuarteto de Guitarras SUACM cuenta con una amplia trayectoria de sus integrantes en la Guitarra de Concierto, tanto solistas como en diferentes ensambles, se ha presentado en diferentes foros como: el Antiguo Colegio de San Carlos, el Museo de San Carlos, el Palacio de Medicina de la UNAM. El Ex Convento del Desierto de   los Leones, Ex Convento de Cilhucán, Museo de las culturas Pasión por Iztapalapa, así como en galerías, ferias de libro y ferias populares.
+        resenia: `El Cuarteto de Guitarras SUACM se forma en Enero de 2018, por el Amor y la Pasión de sus integrantes hacia la Guitarra de Concierto, teniendo como prioridad la interpretación y difusión de los Grandes Compositores Mexicanos de la Guitarra Clásica, sin dejar de lado al resto del mundo. 
+        El Cuarteto de Guitarras SUACM cuenta con una amplia trayectoria de sus integrantes en la Guitarra de Concierto, tanto solistas como en diferentes ensambles, se ha presentado en diferentes foros como: el Antiguo Colegio de San Carlos, el Museo de San Carlos, el Palacio de Medicina de la UNAM. El Ex Convento del Desierto de los Leones, Ex Convento de Cilhucán, Museo de las culturas Pasión por Iztapalapa, así como en galerías, ferias de libro y ferias populares.
+                
                 Integrantes:
+                Cutberto Córdova Nieto U.V.
                 José Miguel García Torres FaM UNAM
                 Marco Mizael Blanno Lugo EBAT
-                Gabriel Lara Amador INBA`,
+                Gabriel Lara Amador INBA
+
+                Músicos Invitados:
+                Karen Daniela Sustaita - Viola
+                Francisco Rebollo - Violín`,
         imagen: "./src/img/interpretes/FIG_image.png",
         fondo: './src/img/interpretes/FIGFondo.png'
     }
@@ -183,8 +194,14 @@ const muestraInfo = (persona) => {
 
     let p = null
     for(let i of parrafos){
-        p = creaElemento('p')
-        p.textContent = i
+        let p = null
+        if(/Integrantes:/.test(i) || /Músicos Invitados:/.test(i)){
+            p = creaElemento('h4')
+            p.textContent = i
+        }else{
+            p = creaElemento('p')
+            p.textContent = i    
+        }
         espacio.appendChild(p)
     }
     let cierre = creaElemento('span', 'id', 'cierre')
