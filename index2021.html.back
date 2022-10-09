@@ -12,17 +12,19 @@
 </head>
 <body>
     <header>
-        <h1> <img src="./src/img/fig2022.png" alt="FIG Iztapalapa" /> </h1>
+        <h1> <img src="./src/img/Fig.png" alt="FIG Iztapalapa" /> </h1>
         <ul>
-            <li><a href="/fig2021.html">FIGI 2021</a></li>
+            <li>FIGI 2021</li>
+            <li>FIGI 2020</li>
+            <li>Historia</li>
         </ul>
     </header>
     <main>
         <div id="presentacion">
-            <h2>Festival Internacional de Guitarra Iztapalapa 2022</h2>
-            <video  controls  poster="./src/img/VideoFondo2022.png" preload="none">
+            <h2>Festival Internacional de Guitarra Iztapalapa 2021</h2>
+            <video  controls  poster="./src/img/FondoVideo.png" preload="none">
             <source 
-                src="./src/vid/FIG2022.mp4"
+                src="./src/vid/FIGIztapalapa.mp4"
                 type="video/mp4">
                 
             </video>
@@ -34,6 +36,10 @@
             <evento-figi evento="4"></evento-figi>
             <evento-figi evento="5"></evento-figi>
             <evento-figi evento="6"></evento-figi>
+            <evento-figi evento="7"></evento-figi>
+            <evento-figi evento="8"></evento-figi>
+            <evento-figi evento="9"></evento-figi>
+            <evento-figi evento="10"></evento-figi>
             <div id="interpreteResumen">
                 <h3>Nombre</h3>
                 <p>Contenido</p>
@@ -49,6 +55,6 @@
         <a href="https://www.youtube.com/channel/UCyqTmNCfwOhQK4BTJ0xDtHQ" target="_blank" ><img src="./src/img/yt.png" alt="YouTube"></a>
 
     </footer>
-    <script src="./src/js/eventos2022.js"></script>
+    <script src="./src/js/eventos.js"></script>
 </body>
 </html>
