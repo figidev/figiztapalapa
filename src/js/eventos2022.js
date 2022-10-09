@@ -69,7 +69,7 @@ const interpretes = {
         nombre: "Por definir",
         resenia: `Por definir`,
         imagen: "./src/img/interpretes/FIG_image.png",
-        fondo: './src/img/interpretes/FIGFondo.png'
+        fondo: './src/img/interpretes/FIGFondo2022.png'
     },
     "1": {
         nombre: "Natalia María Beltán Velázquez (Colombia)",
@@ -169,8 +169,8 @@ const interpretes = {
                 Músicos Invitados:
                 Karen Daniela Sustaita - Viola
                 Francisco Rebollo - Violín`,
-        imagen: "./src/img/interpretes/FIG_image.png",
-        fondo: './src/img/interpretes/FIGFondo.png'
+        imagen: "./src/img/interpretes/Cuarteto.jpg",
+        fondo: './src/img/interpretes/CuartetoFondo.jpg'
     },
     "13": {
         nombre: "César Lara",
@@ -201,7 +201,7 @@ const interpretes = {
         Al año siguiente comenzó a estudiar la viola como instrumento principal con la maestra Nycte Sánchez, egresada de la Escuela Nacional de Música.
         Se ha presentado, como solista y en diversas agrupaciones, como orquestas, ensambles y cuartetos, y en distintos foros de gran importancia como el Palacio de Bellas Artes, la sala Xochipilli de la Facultad de Música, Biblioteca Vasconcelos, Museo de San Carlos, Museo Nacional de Antropología, Ex convento del Desierto de los Leones y el Centro Cultural Los Pinos entre otros, así como en algunos estados de la república.`,
         imagen: "./src/img/interpretes/KarenSustaita.jpg",
-        fondo: './src/img/interpretes/FIGFondo.png'
+        fondo: './src/img/interpretes/CuartetoFondo.jpg'
     },
     "16": {
         nombre: "Francisco Rebollo Guzmán",
@@ -211,7 +211,7 @@ const interpretes = {
         Además, ha participado en giras nacionales con la orquesta filarmónica de la facultad de Música bajo la dirección de Sergio Cárdenas, así como con la orquesta sinfónica juvenil de la Ollin Yoliztli bajo la dirección de Zaeth Ritter. Participó en el ensamble camerata cadenza también dirigido por Ritter y es actual miembro de la camerata Amadeus proyecto independiente hecho por integrantes del sistema de coros y orquestas de la ciudad de México. 
         Es miembro actual del proyecto interdisciplinario Triciclo Circus Band el cual esta enfocado en crear e interpretar piezas propias a partir de los distintos géneros y estilos musicales que existen alrededor del mundo, y además, incorporar las artes escénicas para hacer partícipe al espectador y romper la barrera que existe entre el artista y el espectador, lo cual se manifiesta en un espectáculo lleno de múltiples sensaciones, sentimientos y mucha energía la cual lleva a la catarsis colectiva en un espectáculo único. `,
         imagen: "./src/img/interpretes/FranciscoRebollo.jpg",
-        fondo: './src/img/interpretes/FIGFondo.png'
+        fondo: './src/img/interpretes/CuartetoFondo.jpg'
     },
     "17": {
         nombre: "Cutberto Córdova Nieto",
