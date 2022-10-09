@@ -34,7 +34,9 @@ const eventos = {
         recinto: "ExConvento de San Juan Evangelista Culhuacan",
         referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
         programa: [
-            [{ interprete: 4, contenido: null}]
+            [{ interprete: 4, contenido: null}],
+            [{ interprete: 13, contenido: null}],
+            [{ interprete: 14, contenido: null}]
         ]
     },
     "5": {
@@ -54,7 +56,10 @@ const eventos = {
         referencia: 'https://www.google.com/maps/place/Utop%C3%ADa+%22Papalotl%22/@19.3421459,-99.034535,17z/data=!3m1!4b1!4m5!3m4!1s0x85ce034448e99d97:0x22fb90891720c78a!8m2!3d19.3421459!4d-99.032341',
         programa: [
             [{ interprete: 11, contenido: null}],
-            [{ interprete: 12, contenido: null}]
+            [{ interprete: 12, contenido: null}],
+            [{ interprete: 17, contenido: null}],
+            [{ interprete: 15, contenido: null}],
+            [{ interprete: 16, contenido: null}]
         ]
     }
 }
@@ -166,6 +171,58 @@ const interpretes = {
                 Francisco Rebollo - Violín`,
         imagen: "./src/img/interpretes/FIG_image.png",
         fondo: './src/img/interpretes/FIGFondo.png'
+    },
+    "13": {
+        nombre: "César Lara",
+        resenia: `Realizó sus estudios de Licenciatura en la Escuela Nacional de Música de la unam, bajo la cátedra de guitarra del Mtro. Juan Carlos Laguna, donde se recibió con los máximos honores. 
+        De 2003 a 2004 realizó un diplomado en la academia de perfeccionamiento guitarrrístico “Francisco Tárrega” en Pordenone, Italia, con los maestros Paolo Pegoraro y Stefano Viola. Ha obtenido reconocimientos y premios en más de una docena de concursos nacionales e internacionales. 
+        Como solista ha actuado con la Orquesta Filarmónica de la Ciudad de México, la Orquesta Sinfónica del IPN, la Orquesta Sinfónica Juvenil Carlos Chávez, la Orquesta Filarmónica de las ciudades de Acapulco, Querétaro y Toluca. 
+        Es miembro fundador del Cuarteto de Guitarras de la Ciudad de México y de diversas agrupaciones de música de cámara. 
+        Desde 2005 es profesor de guitarra en el Conservatorio de Música del Estado de México, profesor y coordinador de la cátedra de guitarra en la Escuela “Vida y Movimiento” del Centro Cultural Ollín Yoliztli y director del Festival de Guitarra de dicha institución y profesor de Kithara Project, organización no gubernamental dedicada a la enseñanza de guitarra clásica en zonas de escasos recursos de Estados Unidos de Norteamérica y México.`,
+        imagen: "./src/img/interpretes/Cesar.jpg",
+        fondo: './src/img/interpretes/In-FortunioFondo.jpg'
+    },
+    "14": {
+        nombre: "Javier Noyola Zarazúa",
+        resenia: `Javier es uno de los músicos más sobresalientes y versátiles de su generación. Es egresado de la Facultad de Música de la UNAM como Instrumentista con especialidad en guitarra bajo la tutela de Juan Carlos Laguna y Oscar Cárdenas. 
+        En su trayectoria musical ha emprendido una variedad de proyectos que abarcan desde la música clásica hasta el jazz. 
+        Se ha especializado en géneros como el fado portugués y el tango argentino. 
+        Cuenta con 2 producciones discográficas. Además de la guitarra también es ejecutante del bandoneón. 
+        Ha estudiado el instrumento con los maestros Omar Massa y Cesare Chiacchiaretta, con este último sobre interpretación y arreglo de la música de Astor Piazzolla. A trabajado en diversos musicales junto al destacado cantante Freddy Potenza, y formado parte de la agrupación del maestro Francisco “Paco” Barron.
+        Colaboro 2 años con la COMPAÑIA ARGENTINA DE TANGO y el QUINTETO INFECTANGO en la ciudad de Cancún presentándose en diversos espacios dedicados al Tango en toda la Riviera maya y en Guatemala en diversos festivales de tango con bailarines de talla internacional nacionales y extranjeros. 
+        NFORTUNIO TANGO DUO actualmente es el proyecto con el cual se dedica desde el 2014 y cuenta con la primera grabación discográfica “Nostalgias”. Además de colaborar en proyectos diversos con la comunidad del tango en México y Argentina. Como docente ha impartido clases de guitarra, improvisación, armonía moderna y clásica, análisis de estilos musicales y conjuntos instrumentales de manera privada y en la Escuela de Música DIM.
+        Como productor de audio se especializa en la grabación de solistas y ensambles de música clásica.`,
+        imagen: "./src/img/interpretes/Javier.jpg",
+        fondo: './src/img/interpretes/In-FortunioFondo.jpg'
+    },
+    "15": {
+        nombre: "Karen Daniela Sustaita Domínguez",
+        resenia: `Inició sus estudios musicales en 2011 en la Escuela de Iniciación Artística no. 3 del Instituto Nacional de Bellas Artes en la especialidad de piano. 
+        Al año siguiente comenzó a estudiar la viola como instrumento principal con la maestra Nycte Sánchez, egresada de la Escuela Nacional de Música.
+        Se ha presentado, como solista y en diversas agrupaciones, como orquestas, ensambles y cuartetos, y en distintos foros de gran importancia como el Palacio de Bellas Artes, la sala Xochipilli de la Facultad de Música, Biblioteca Vasconcelos, Museo de San Carlos, Museo Nacional de Antropología, Ex convento del Desierto de los Leones y el Centro Cultural Los Pinos entre otros, así como en algunos estados de la república.`,
+        imagen: "./src/img/interpretes/KarenSustaita.jpg",
+        fondo: './src/img/interpretes/FIGFondo.png'
+    },
+    "16": {
+        nombre: "Francisco Rebollo Guzmán",
+        resenia: `Músico violinista mexicano que incursiona en múltiples estilos musicales, así como, en las artes escénicas haciendo uso del discurso musical y la representación corpórea para la creación de un lenguaje musical auténtico. 
+        Comienza su introducción musical en el sistema de coros y orquestas de la ciudad de México a la edad de siete años bajo la tutela del director y trompetista Roberto Durán Lozano, sin embargo, es hasta la edad de los dieciocho años cuando comienza a estudiar formalmente la carrera de instrumentista violín, en la escuela de música vida y movimiento del centro cultural Ollin Yoliztli, en la cátedra de violín del profesor Mario Gongora, posteriormente continua con su formación musical bajo la cátedra de la profesora japonesa radicada en México, Yuriko Kuronuma en su academia musical ubicada en el centro de coyoacán, así como, en la facultad de música de la UNAM bajo la cátedra de Victoria Horti. 
+        Ha participado en diversos festivales de música del país y del extranjero, entre los que destacan, Festival internacional Cervantino, Festival del centro histórico de la ciudad de Cumbre Tajín, Feria de San Marcos, Feria Internacional del libro infantil y juvenil, Festival Mirada en Santos Brasil, Shenandoah performing art en Virginia E.U. entre muchos más. 
+        Además, ha participado en giras nacionales con la orquesta filarmónica de la facultad de Música bajo la dirección de Sergio Cárdenas, así como con la orquesta sinfónica juvenil de la Ollin Yoliztli bajo la dirección de Zaeth Ritter. Participó en el ensamble camerata cadenza también dirigido por Ritter y es actual miembro de la camerata Amadeus proyecto independiente hecho por integrantes del sistema de coros y orquestas de la ciudad de México. 
+        Es miembro actual del proyecto interdisciplinario Triciclo Circus Band el cual esta enfocado en crear e interpretar piezas propias a partir de los distintos géneros y estilos musicales que existen alrededor del mundo, y además, incorporar las artes escénicas para hacer partícipe al espectador y romper la barrera que existe entre el artista y el espectador, lo cual se manifiesta en un espectáculo lleno de múltiples sensaciones, sentimientos y mucha energía la cual lleva a la catarsis colectiva en un espectáculo único. `,
+        imagen: "./src/img/interpretes/FranciscoRebollo.jpg",
+        fondo: './src/img/interpretes/FIGFondo.png'
+    },
+    "17": {
+        nombre: "Cutberto Córdova Nieto",
+        resenia: `Cutberto Córdova se ha convertido en un representante de la música mexicana de nueva creación. Sus obras van desde dotaciones para guitarra solista, duetos, cuartetos, música de cámara, hasta un concierto para guitarra y orquesta.
+        Frecuentemente su obra es interpretada de diversas partes del mundo incluyendo Festivales Internacionales e incluso como obra obligatoria en Concursos Nacionales.
+        Cuenta con grabaciones de discos de su trabajo compositivo que se encuentran en las plataformas digitales, además de haber sido grabada su obra para NAXOS por el guitarrista mexicano Cecilio Perera.
+        Gracias a su gran labor como compositor o como ejecutante, ha sido invitado en diversos foros tales como; ponente y con el Ensamble de Guitarras del ISMEV al 5º Festival Internacional de Orquestas de Guitarra en la ciudad de Cali Colombia; en una conferencia de su obra y clases magistrales en Boston en el Latin American Music Festival auspiciado por The Rivers School Conservatory; es ganador del la beca Habilitación del Perfil Internacional (HAPI) de la Universidad Veracruzana para realizar una Residencia Artística en la Universidad de Rio Grande Valley, Texas, Estados Unidos; invitado al conversatorio de compositores, además de ser interpretada su obra por la Orquesta Internacional de Guitarra en el XVI Encuentro Internacional de Guitarra en Panamá; como Jurado del Concurso Latinoamericano de Mujeres Intérpretes de la Guitarra en Hermosillo Sonora; clases magistrales, ponencia y concierto en la Universidad Distrital ASAB de Bogotá Colombia; ponencia de su CD Crónicas de Viaje en el Latin-American Guitar Festival Chicago Estados Unidos; participa en el Segundo, Tercer y Quinto Festival de Orquestas de Guitarra en la ciudad de Cali Colombia en las ediciones del donde interpretaron diversas orquestas de diferentes países su obra; conferencista en el Foro de Compositores Clutch en la Universidad de Austin Texas.
+        Ha presentado su CD Mictlán en Latina, Italia; Caravaca de la Cruz, España; Universidad del Mozarteum en Salzburgo, Austria y en el Conservatorio Koninklijk de la Haya, Holanda.
+        Realizó una gira con la Orquesta de Guitarras de Xalapa por un mes a China, desde Hong Kong hasta Beijing y se ha presentado en la Escuela de Artes Musicales de la Universidad de San José Costa Rica; en el Conservatorio de Música “G. B. Pergolesi” de Fermo Italia, así como una conferencia en la Universidad del Cuyo, Mendoza Argentina.`,
+        imagen: "./src/img/interpretes/Cutberto.jpg",
+        fondo: './src/img/interpretes/CutbertoFondo.jpg'
     }
 }
 
