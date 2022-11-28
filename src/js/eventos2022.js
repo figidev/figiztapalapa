@@ -240,7 +240,7 @@ const interpretes = {
         En 2016, debutaron como solistas junto a la Orquesta Sinfónica Juvenil Ollin Yoliztli, bajo la batuta del Mtro. Rodrigo Elorduy, con la obra “Danzón no.3” del compositor mexicano Arturo Márquez, realizando presentaciones en la sala Silvestre Revueltas del CCOY, Museo del Arzobispado y en Zócalo de la CDMX.
         Han realizado clases magistrales con importantes músicos de talla internacional tales como Juan Carlos Laguna, Morgan Szymansky, Alí Arango y el afamado ensamble “Cavatina Dúo” integrado por Eugenia Moliner y Denis Azabagic.
         “Mosaicos Sonoros” es un programa que reúne música de diferentes épocas, estilos y orígenes. Desde danzas tradicionales de los Balcanes, hasta tangos de Astor Piazzolla, pasando por temas operísticos de Mozart y música mexicana contemporánea, misma que es sello característico de los intérpretes. Todo esto a través de la flauta y la guitarra, instrumentos que han sido parte importante de la historia de la música universal y que, en esta ocasión, fusionan sus timbres para envolvernos en un viaje sonoro que, en conjunto, forma un mosaico de estilos, atmósferas y colores. `,
-        imagen: "./src/img/interpretes/PintaoLogo.png",
+        imagen: "./src/img/interpretes/PiantaoLogo.png",
         fondo: './src/img/interpretes/Piantao.jpg'
     }
 }
