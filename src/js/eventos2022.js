@@ -61,6 +61,15 @@ const eventos = {
             [{ interprete: 15, contenido: null}],
             [{ interprete: 16, contenido: null}]
         ]
+    },
+    "7": {
+        tipo: "Concierto",
+        fecha: "09/12/2022",  hora: "18:30",
+        recinto: "ExConvento de San Juan Evangelista Culhuacan",
+        referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
+        programa: [
+            [{ interprete: 18, contenido: null}]
+        ]
     }
 }
 
@@ -223,6 +232,16 @@ const interpretes = {
         Realizó una gira con la Orquesta de Guitarras de Xalapa por un mes a China, desde Hong Kong hasta Beijing y se ha presentado en la Escuela de Artes Musicales de la Universidad de San José Costa Rica; en el Conservatorio de Música “G. B. Pergolesi” de Fermo Italia, así como una conferencia en la Universidad del Cuyo, Mendoza Argentina.`,
         imagen: "./src/img/interpretes/Cutberto.jpg",
         fondo: './src/img/interpretes/CutbertoFondo.jpg'
+    },
+    "18": {
+        nombre: "Dúo Piantao",
+        resenia: `Es un ensamble conformado por los jóvenes mexicanos Yesica Flores y Carlos Valencia, dedicado a la interpretación y difusión de la música de reciente creación escrita originalmente para esta dotación instrumental. 
+        El proyecto surgió en el año 2014, como actividad académica durante los estudios profesionales de sus integrantes. Desde el primer año de trabajo, enfocaron su atención hacia la música mexicana contemporánea y las nuevas propuestas, al mismo tiempo que exploraban el repertorio popular latinoamericano. 
+        En 2016, debutaron como solistas junto a la Orquesta Sinfónica Juvenil Ollin Yoliztli, bajo la batuta del Mtro. Rodrigo Elorduy, con la obra “Danzón no.3” del compositor mexicano Arturo Márquez, realizando presentaciones en la sala Silvestre Revueltas del CCOY, Museo del Arzobispado y en Zócalo de la CDMX.
+        Han realizado clases magistrales con importantes músicos de talla internacional tales como Juan Carlos Laguna, Morgan Szymansky, Alí Arango y el afamado ensamble “Cavatina Dúo” integrado por Eugenia Moliner y Denis Azabagic.
+        “Mosaicos Sonoros” es un programa que reúne música de diferentes épocas, estilos y orígenes. Desde danzas tradicionales de los Balcanes, hasta tangos de Astor Piazzolla, pasando por temas operísticos de Mozart y música mexicana contemporánea, misma que es sello característico de los intérpretes. Todo esto a través de la flauta y la guitarra, instrumentos que han sido parte importante de la historia de la música universal y que, en esta ocasión, fusionan sus timbres para envolvernos en un viaje sonoro que, en conjunto, forma un mosaico de estilos, atmósferas y colores. `,
+        imagen: "./src/img/interpretes/PintaoLogo.png",
+        fondo: './src/img/interpretes/Piantao.jpg'
     }
 }
 
