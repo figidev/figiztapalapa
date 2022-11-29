@@ -68,7 +68,9 @@ const eventos = {
         recinto: "ExConvento de San Juan Evangelista Culhuacan",
         referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
         programa: [
-            [{ interprete: 18, contenido: null}]
+            [{ interprete: 18, contenido: null}],
+            [{ interprete: 19, contenido: null}],
+            [{ interprete: 20, contenido: null}]
         ]
     }
 }
@@ -242,6 +244,36 @@ const interpretes = {
         “Mosaicos Sonoros” es un programa que reúne música de diferentes épocas, estilos y orígenes. Desde danzas tradicionales de los Balcanes, hasta tangos de Astor Piazzolla, pasando por temas operísticos de Mozart y música mexicana contemporánea, misma que es sello característico de los intérpretes. Todo esto a través de la flauta y la guitarra, instrumentos que han sido parte importante de la historia de la música universal y que, en esta ocasión, fusionan sus timbres para envolvernos en un viaje sonoro que, en conjunto, forma un mosaico de estilos, atmósferas y colores. `,
         imagen: "./src/img/interpretes/PiantaoLogo.png",
         fondo: './src/img/interpretes/Piantao.jpg'
+    },
+    "19": {
+        nombre: "Yesica Flores",
+        resenia: `Originaria de la ciudad de Oaxaca, comenzó sus estudios musicales a la edad de 9 años, como integrante de la Orquesta Sinfónica Infantil y Juvenil “Libertad” A.C. dirigida por el reconocido Mtro. Mauro Ramírez Pérez.
+        Durante su formación inicial, participó en numerosos encuentros orquestales en diferentes estados de la República Mexicana.
+        A la edad de 13 años, fue integrante de la Orquesta Sinfónica Infantil de México (OSIM), con la cual realizó tres giras Nacionales y una Internacional, presentándose en la ciudad de Forth Worth, Texas, EUA.
+        En el año 2009, participó en el Encuentro Nacional de Orquestas Sinfónicas Juveniles en Puebla y en el 6to Encuentro Internacional de Orquestas Sinfónicas Infantiles y Juveniles de Orizaba.
+        Participó como estudiante activa en las ediciones 2013 y 2014 del Festival Internacional “Instrumenta Oaxaca”. Ha tomado clases Magistrales y cursos de perfeccionamiento con Maestros de talla Internacional como son: Yves Artaud, Efrain Oscher, Joanna G’froerer, Susan Hoeppner, Ulla Miilmann, Alice K. Dade, Eugenia Moliner, Alberto Almarza, entre otros.
+        En 2016, fue solista con la Orquesta Sinfónica Juvenil Ollin Yoliztli, realizando diversas presentaciones en importantes foros de la CDMX.
+        En 2018, fue aceptada en el curso anual que ofrece Le Domaine Forget International Music and Dance Academy en Saint-Irénnée, Québec, Canada. Donde realizó clases magistrales con destacados flautistas de talla Internacional.
+        Es egresada de la Escuela de Música “Vida y Movimiento” del Centro Cultural Ollin Yoliztli, donde realizó sus estudios de Licenciatura con el Mtro. Rafael Urrusti.
+        `,
+        imagen: "./src/img/interpretes/Yesica_Flores_avatar.jpg",
+        fondo: './src/img/interpretes/Yesica_Flores.jpg'
+    },
+    "20": {
+        nombre: "Carlos Valencia",
+        resenia: `Originario de la ciudad de León, Gto; comenzó sus estudios musicales a la edad de 13 años bajo la guía del Mtro. Arturo Ramírez y posteriormente del Mtro. Mario Ortíz.
+        Licenciado en Concertista, egresado con Mención Honorífica del Centro Cultural Ollin Yoliztli, bajo la cátedra del Mtro. César Lara.
+        Ha obtenido más de una docena de premios en los principales certámenes de Guitarra Clásica del País entre los que destacan:
+        1er. Lugar en el Concurso Nacional de Guitarra Clásica “Festguitar Puebla” en 2014.
+        2do. Lugar en el Concurso Nacional de Guitarra de Paracho en 2011.
+        2do. Lugar en el XI Concurso Nacional de Guitarra Clásica “Ramón Noble” de Pachuca en 2016.
+        3er. Lugar en el II y V Concurso Nacional de Guitarra “Premio Conservatorio Nacional de Música” de la CMDX en 2013 y 2016, entre otros.
+        Ha participado como solista junto a la Orquesta Sinfónica de Coyoacán y la Orquesta Sinfónica Juvenil Ollin Yoliztli. 
+        Ha recibido cursos, talleres y clases magistrales de importantes músicos de la escena internacional como lo son: Juan Carlos Laguna, Alfonso Moreno, Gerardo Taméz, Pablo Garibay, Morgan Szymansky, Martha Masters, Carlos Bonnell, Giampaolo Bandini, Denis Azabagic, Alí Arango, Eduardo Isaac, Massimo Delle Cese, Edel Muñóz, entre otros. 
+        Sus proyectos escénicos han recibido el apoyo de instituciones gubernamentales tales como el Instituto Cultural de León, PECDA Gto, y el Fondo Nacional para la Cultura y las Artes (FONCA).
+        Es integrante de Dúo Piantao, junto a la joven flautista Yesica Flores, ensamble dedicado a la difusión e interpretación del repertorio para flauta y guitarra de reciente creación.`,
+        imagen: "./src/img/interpretes/Carlos_Valencia_avatar.jpg",
+        fondo: './src/img/interpretes/Carlos_Valencia.jpg'
     }
 }
 
