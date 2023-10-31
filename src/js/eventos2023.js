@@ -58,7 +58,7 @@ const eventos = {
         fecha: "29/11/2023",  hora: "16:00",
         recinto: "ExConvento de San Juan Evangelista Culhuacan",
         referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
-        imparte: 3
+        imparte: 10
     },
     "8": {
         tipo: "Concierto",
@@ -77,7 +77,7 @@ const interpretes = {
     "0": {
         nombre: "Por definir",
         resenia: `Por definir`,
-        imagen: "./src/img/interpretes/FIG_image.png",
+        imagen: "./src/img/interpretes/LogoIcono.png",
         fondo: './src/img/interpretes/FIGFondo2022.png'
     },
     "1": {
@@ -103,14 +103,14 @@ const interpretes = {
         Sándor Sáenz, Zaida Pérez, Sebastián Rivera, Guitarra Baja 
         Ronald Picado, Bajo Eléctrico 
         Melissa Rojas, Isaac Cordero, Percusión `,
-        imagen: "./src/img/interpretes/FIG_image.png",
+        imagen: "./src/img/interpretes/2023/OrquetaUnion.jpg",
         fondo: './src/img/interpretes/2023/OrquetaLaUnión.jpg'
     },
     "3": {
         nombre: "Alexis Rodriguez (Cuba)",
         resenia: `Por definir`,
-        imagen: "./src/img/interpretes/FIG_image.png",
-        fondo: './src/img/interpretes/FIGFondo2022.png'
+        imagen: "./src/img/interpretes/2023/AlexisRodrigez.jpg",
+        fondo: './src/img/interpretes/2023/AlexisRodrigezBack.jpg'
     },
     "4": {
         nombre: "Luis Benítez Alba",
@@ -119,8 +119,8 @@ const interpretes = {
         Ha sido premiado en numerosas ocasiones destacando el Premio de la Juventud de la Ciudad de México 2015, el Tercer Lugar en el VI Claxica International Guitar Competition en Bologna, Italia y en los concursos nacionales de Colima, Toluca, Chihuahua, Pachuca y Durango. 
         En 2015 y 2021 gracias al Programa Creadores Escénicos Categoría del FONCA pudo concretar los proyectos “La guitarra mexicana del siglo XX”  y "Sonatas para guitarra: evolución de la forma desde la Nueva España del siglo XVIII hasta el México actual". 
         Desde 2020 es profesor de Guitarra del Sistema de Educación Continua de la Facultad de Música de la UNAM y es fundador del Estudio de Guitarra Clásica en la Ciudad de México.
-        En 2023, el maestro visita ______con el proyecto “Al alba del siglo XXI: nueva música mexicana para gutiarra” gracias al apoyo del FONCA. Con este programa recorrerá nuevamente la República Mexicana.
-        El maestro Luis Benítez Alba desea extender un agradecimiento a ______ por las gestiones efectuadas para la realización de este recital.
+        En 2023, el maestro visita el Festival Internacional de Guitarra Iztapalapa con el proyecto “Al alba del siglo XXI: nueva música mexicana para gutiarra” gracias al apoyo del FONCA. Con este programa recorrerá nuevamente la República Mexicana.
+        El maestro Luis Benítez Alba desea extender un agradecimiento a el Festival Internacional de Guitarra Iztapalapa por las gestiones efectuadas para la realización de este recital.
         `,
         imagen: "./src/img/interpretes/2023/LuisBenitez.jpg",
         fondo: './src/img/interpretes/2023/LuisBenitezBack.jpg'
@@ -128,7 +128,7 @@ const interpretes = {
     "5": {
         nombre: "Karla Keren Sierra",
         resenia: `Por definir`,
-        imagen: "./src/img/interpretes/FIG_image.png",
+        imagen: "./src/img/interpretes/LogoIcono.png",
         fondo: './src/img/interpretes/FIGFondo2022.png'
     },
     "6": {
@@ -151,16 +151,22 @@ const interpretes = {
         fondo: './src/img/interpretes/2023/CutbertoCordovaBack.jpg'
     },
     "8": {
-        nombre: "OrquestaFemenil de Guitarras Sencuicani",
+        nombre: "Orquesta Femenil de Guitarras Sencuicati",
         resenia: `Por definir`,
-        imagen: "./src/img/interpretes/FIG_image.png",
+        imagen: "./src/img/interpretes/2023/Sencuicati.jpg",
         fondo: './src/img/interpretes/2023/OrquestaFemenilBack.jpg'
     },
     "9": {
         nombre: "Cuarteto SUACM",
         resenia: `Por definir`,
-        imagen: "./src/img/interpretes/FIG_image.png",
+        imagen: "./src/img/interpretes/LogoIcono.png",
         fondo: './src/img/interpretes/FIGFondo2022.png'
+    },
+    "10": {
+        nombre: "Alexis Rodriguez (Cuba)",
+        resenia: `Clase magistral "Recursos metodológicos para un escritor de canciones".`,
+        imagen: "./src/img/interpretes/2023/AlexisRodrigez.jpg",
+        fondo: './src/img/interpretes/2023/AlexisRodrigezBack.jpg'
     }
 }
 
