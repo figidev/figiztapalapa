@@ -20,8 +20,8 @@ const eventos = {
     "3": {
         tipo: "Concierto",
         fecha: "12/11/2023",  hora: "17:00",
-        recinto: "Centro Cultural Fausto Vega",
-        referencia: 'https://www.google.com/maps/place/Fausto+Vega/@19.366863,-99.1131694,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1fe725c2dbff3:0x46f18c5fce014d5d!8m2!3d19.366863!4d-99.1109754',
+        recinto: "UTOPÍA Cuauhtlicalli",
+        referencia: 'https://maps.app.goo.gl/QMbJveM2MMBVhGVW6',
         programa: [
             [{ interprete: 3, contenido: null}]
         ]
@@ -71,6 +71,22 @@ const eventos = {
             [{ interprete: 9, contenido: null}]
         ]
     },
+    "9": {
+        tipo: "Concierto",
+        fecha: "24/11/2023",  hora: "18:00",
+        recinto: "Museo de las Culturas Pasion por Iztapalapa",
+        referencia: 'https://maps.app.goo.gl/MbS3VYfVoNbJRksz5',
+        programa: [
+            [{ interprete: 11, contenido: null}]
+        ]
+    },
+    "10": {
+        tipo: "Clase Magistral",
+        fecha: "22/11/2023",  hora: "16:00",
+        recinto: "UTOPÍA Meyehualco",
+        referencia: 'https://maps.app.goo.gl/eq7eqnVkoJ9WRLv37',
+        imparte: 12
+    }
 }
 
 const interpretes = {
@@ -128,8 +144,8 @@ const interpretes = {
     "5": {
         nombre: "Karla Keren Sierra",
         resenia: `Por definir`,
-        imagen: "./src/img/interpretes/LogoIcono.png",
-        fondo: './src/img/interpretes/FIGFondo2022.png'
+        imagen: "./src/img/interpretes/2023/KarlaKerern.jpg",
+        fondo: './src/img/interpretes/2023/KarlaKerernBack.jpg'
     },
     "6": {
         nombre: "Dúo Lux Chordarum",
@@ -152,7 +168,10 @@ const interpretes = {
     },
     "8": {
         nombre: "Orquesta Femenil de Guitarras Sencuicati",
-        resenia: `Por definir`,
+        resenia: `Es fundada por María Bárbara Trigos Bárcenas y por Claudia Valeria Vega Valencia en septiembre del 2023 en la Ciudad de México. 
+        El nombre “Sencuicati”, proviene del náhuatl y se traduce como: “Juntas van a cantar”.
+        La OFGS tiene como objetivo ser una agrupación dónde la mujer guitarrista clásica, pueda ejercer libre y profesionalmente su carrera.
+        La visión de la orquesta es interpretar, mayoritariamente, obras creadas por mujeres, para difundir y apreciar el patrimonio musical y artístico creado por compositoras.`,
         imagen: "./src/img/interpretes/2023/Sencuicati.jpg",
         fondo: './src/img/interpretes/2023/OrquestaFemenilBack.jpg'
     },
@@ -167,6 +186,24 @@ const interpretes = {
         resenia: `Clase magistral "Recursos metodológicos para un escritor de canciones".`,
         imagen: "./src/img/interpretes/2023/AlexisRodrigez.jpg",
         fondo: './src/img/interpretes/2023/AlexisRodrigezBack.jpg'
+    },
+    "11": {
+        nombre: "Diego Varillas (Perú)",
+        resenia: `Diego Varillas (Lima, 1990), músico, arreglista, productor musical y Gestor cultural. Ingresó al Conservatorio nacional de música en el año 2012. En el 2014 ingreso a la Escuela Nacional Superior de Folklore José María Arguedas. Fundador y director del Movimiento Cultural Guitarra Viva, Logró ganar reconocimientos muy importantes:
+        * Concurso Nacional de Guitarra Madre Teresa de la Cruz de Candamo (2011, Lima). 
+        * Concurso Internacional de Guitarra Homenaje a Agustín Barrios (2014, Universidad de San Martín de Porres, Perú). 
+        * Joven Valor del Festival Internacional ICPNA (Lima, Perú, 2012, 2014 y 2016), 
+        Ah publicado Libros musicales, investigando la obra de muy importantes guitarristas afroperuanos como: Homenaje a Julio Dávila, Oscar Avilés, Paco Maceda, Máximo Dávila, Rafael Amaranto.
+        Publico Libro con arreglos peruanos propios: Valseando Polkas
+        Actualmente se dedica a promover la Guitarra solista peruana en Perú y en diferentes países, participando y realizando festivales de Guitarra y Conciertos. `,
+        imagen: "./src/img/interpretes/2023/DiegoVarillas.jpg",
+        fondo: './src/img/interpretes/2023/DiegoVarillasBack.jpg'
+    },
+    "12": {
+        nombre: "Freddy Pérez (Cuba)",
+        resenia: `Clase Magistral`,
+        imagen: "./src/img/interpretes/2023/FreddyPerez.jpg",
+        fondo: './src/img/interpretes/2023/FreddyPerezBack.jpg'
     }
 }
 
